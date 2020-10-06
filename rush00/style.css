@@ -1,0 +1,38 @@
+.product_list
+{
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-around;
+}
+.products
+{
+    height: 350px;
+}
+.products_pics
+{
+    display: flex;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+.text
+{
+    text-align: center;
+    font-size: 100%;
+}
+.add_icon
+{
+    background: url('ressources/others/add_icon.png') no-repeat;
+    background-size: 30px;
+    border: black;
+    display: flex;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+}
+.products_pics:hover {display: block;}
+.add_icon:hover {background-color: gray; border-radius: 5px;}
