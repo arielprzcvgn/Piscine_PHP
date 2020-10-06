@@ -1,0 +1,42 @@
+<!doctype HTML>
+<HTML>
+    <HEAD>
+        <TITLE>Balloon</TITLE>
+        <SCRIPT>
+            function more() {
+                var elem = document.getElementById('balloon');
+                if (elem.style.backgroundColor == 'red') {
+                    elem.style.backgroundColor = 'green';}
+                else if (elem.style.backgroundColor == 'green') {
+                    elem.style.backgroundColor = 'blue';}
+                else if (elem.style.backgroundColor == 'blue') {
+                    elem.style.backgroundColor = 'red';}
+                if (elem.style.width >= '420px') {
+                    elem.style.width = '200px';
+                    elem.style.height = '200px';
+                }
+                else {
+                    elem.style.width = elem.offsetWidth+10+'px';
+                    elem.style.height = elem.offsetHeight+10+'px';
+                }
+            }
+
+            function less() {
+                var elem = document.getElementById('balloon');
+                if (elem.style.backgroundColor == 'red') {
+                    elem.style.backgroundColor = 'blue';}
+                else if (elem.style.backgroundColor == 'green') {
+                    elem.style.backgroundColor = 'red';}
+                else if (elem.style.backgroundColor == 'blue') {
+                    elem.style.backgroundColor = 'green';}
+                if (elem.style.width > '200px') {
+                    elem.style.width = elem.offsetWidth-5+'px';
+                    elem.style.height = elem.offsetHeight-5+'px';
+                }
+            }
+        </SCRIPT>
+    </head>
+    <BODY>
+        <DIV id=balloon style="background-color:red;width:200px;height:200px;border-radius:50%;" onclick="more()" onmouseout="less()"></DIV>
+    </BODY>
+</HTML>

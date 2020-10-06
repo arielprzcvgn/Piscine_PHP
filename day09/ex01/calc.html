@@ -1,0 +1,50 @@
+<!doctype HTML>
+<HTML>
+    <HEAD>
+        <TITLE>Calculatrice</TITLE>
+        <SCRIPT>
+            function calc() {
+                var mbr1 = document.getElementById('member1');
+                var op = document.getElementById('operation');
+                var mbr2 = document.getElementById('member2');
+                
+                if (mbr1.value < 0 || mbr2.value < 0) {
+                    alert('Error');}
+                else if ((op.value == '/' || op.value == '%') && mbr2.value == 0){
+                    alert("It's over 9000!");
+                    console.log("It's over 9000!");}
+                else if (op.value == '+') {
+                    console.log(Number(mbr1.value) + Number(mbr2.value));
+                    alert(Number(mbr1.value) + Number(mbr2.value)); }
+                else if (op.value == '-') {
+                    console.log(mbr1.value - mbr2.value);
+                    alert(mbr1.value - mbr2.value); }
+                else if (op.value == '*') {
+                    console.log(mbr1.value * mbr2.value);
+                    alert(mbr1.value * mbr2.value); }
+                else if (op.value == '/') {
+                    console.log(mbr1.value / mbr2.value);
+                    alert(mbr1.value / mbr2.value); }
+                else if (op.value == '%') {
+                    console.log(mbr1.value % mbr2.value);
+                    alert(mbr1.value % mbr2.value); }
+            }
+        </SCRIPT>
+    </head>
+    <BODY>
+        <script>setInterval("alert('Please, use me...')", 30000);</script>
+        <div id=calculatrice style="background-color:grey;width:210px;height:210px;border-radius:5px;">
+            <H2 style="padding:5px;">Calculatrice</H2>
+            <input type="text" id="member1" style="margin:10px;" value=0><br>
+            <select id="operation" style="margin:10px;">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                    <option value="%">%</option>
+            </select><br>
+            <input type="text" id="member2" style="margin:10px;" value=0><br>
+            <input type="submit" value="Try me!" style="margin:10px;" onclick="calc()">
+        </div>
+    </BODY>
+</HTML>

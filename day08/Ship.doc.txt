@@ -1,0 +1,19 @@
+
+<- Ship ----------------------------------------------------------------------
+The Ship abstract class build ships.
+
+An instance can be contructed by itself:
+new Ship();
+
+
+The class provides the following methods :
+
+Ship   create($nteam)
+Create the ship (according to the ship you built) and give him a team $nteam.
+
+Ship   place($board);
+Place a ship on the game board. Return the new board.
+
+Ship   mvt($board);
+Move a ship on the board. Return the new board.
+---------------------------------------------------------------------- Ship ->

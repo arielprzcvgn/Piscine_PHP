@@ -1,0 +1,18 @@
+#menu ul	{list-style-type:none;
+		padding:0px;
+		margin:0px;
+		border-radius:5px;}
+#menu li	{background-color:Orange;
+		float:left;
+		margin:5px;
+		padding:2px;
+		border-radius:5px;}
+#menu li a	{display:block;
+		width:100px;
+		text-decoration:none;}
+#menu li a:hover	{color:gold;}
+#menu ul li ul		{display:none;}
+#menu ul li:hover ul	{display:block;
+			background-color:blue;}
+#menu li:hover ul li	{float:none;}
+#menu li ul		{position:absolute;}

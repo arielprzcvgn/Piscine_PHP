@@ -1,0 +1,24 @@
+H1	{text-align:center;
+	font-size:3vmin;}
+H2	{font-size:2.5vmin;}
+table	{table-layout:auto;
+	width:90%;}
+td	{border: 1px solid black;
+	text-align:center;}
+.weight {text-align:right;
+	font-size: 1vmin;
+	margin-left: 15%}
+.number {text-align:left;
+	font-size: 1vmin;
+	margin-right: 15%}
+.thegame {width:20%; height:20%}
+#alcali		{background-color : red;}
+#alcali-earth	{background-color : brown;}
+#lanthanide	{background-color : pink;}
+#actinide	{background-color : fuchsia;}
+#transimetal	{background-color : orange;}
+#poormetal	{background-color : grey;}
+#metalloid	{background-color : olive;}
+#nonmetal	{background-color : green;}
+#halogen	{background-color : yellow;}
+#noblegas	{background-color : blue;}

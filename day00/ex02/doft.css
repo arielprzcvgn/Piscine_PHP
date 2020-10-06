@@ -1,0 +1,80 @@
+.topbox		{background-color: #909090;
+		margin: 1% 10%;
+		border-radius: 10px;
+		box-shadow: 10px 10px 5px black;
+		position:relative}
+.doft	{width : 40%;
+	border-radius : 10px;
+	margin : 1%;}
+.reload	{width:2%;
+	position:absolute;
+	top:5%;
+	right:1%}
+.close	{width:2%;
+	position:absolute;
+	bottom:5%;
+	right:1%}
+.loupe	{width:20%;
+	position:absolute;
+	bottom:-13%;
+	right: 5%}
+.leftbox	{width:7%;
+		background-color: #909090;
+		border-radius: 10px;
+		box-shadow : 10px 10px 5px black;
+		margin:1%;
+		position:fixed;
+		left:12%;}
+.leftb	{width:50%;
+	margin:10% 25%;}
+.oeil	{width:50%;
+	margin:10% 23%;
+	border:solid red;}
+.middlebox	{width:57%;
+		background-color: #909090;
+		border-radius: 10px;
+		box-shadow : 10px 10px 5px black;
+		margin:1%;
+		position:fixed;
+		right:20.5%}
+.midb	{width:98%;
+	margin:1%;}
+.ikea	{width:10%;
+	height:25%;
+	position:absolute;
+	top:60%;
+	left:35%;}
+.apple	{width:20%;
+	height:25%;
+	position:absolute;
+	bottom:20%;
+	right:5%;}
+.rightbox	{width:7%;
+		background-color: #909090;
+		border-radius: 10px;
+		box-shadow : 10px 10px 5px black;
+		margin:1%;
+		position:fixed;
+		right:12%;}
+.rightb	{width:50%;
+	margin:10% 25%;}
+.trans	{height:40%;
+	margin:200%;
+	background-color: #909090;}
+.brick	{width:90%;
+	height:15%;
+	position:absolute;
+	top:40%;
+	left:5%;
+	background-image: url("resources/brick.jpg");
+	background-repeat: repeat;
+	background-size:25%}
+.greenbox	{width:30%;
+		background-color: #70FF70;
+		border-radius: 10px;
+		box-shadow : 10px 10px 5px black;
+		margin:2%;
+		position:fixed;
+		left:8%;
+		padding:0px 5px 20px 5px;}
+.ordi	{text-shadow:5px 3px 4px red;}

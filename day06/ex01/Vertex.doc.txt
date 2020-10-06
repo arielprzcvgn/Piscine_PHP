@@ -1,0 +1,22 @@
+<- Vertex ----------------------------------------------------------------------
+The Vertex class handles x, y, z, w Vertex, with an optionnal Color.
+
+An instance can be contructed from either a x, y, z, w, color):
+new Vertex( array( 'x' => 1.0, 'y' => 0.0, 'z' => 0.0, 'color' => new Color( array( 'red' => 255, 'green' => 255, 'blue' => 255 ) ) ) );
+
+x, y, z are set by default to 0.
+w is set by default to 1.0.
+color is set by default to new Color( array( 'red' => 255, 'green' => 255, 'blue' => 255 ) )
+
+The class provides the following methods :
+
+Vertex  getX ();
+Returns the value of x.
+
+Vertex  setX ( $v );
+Set the value of x to $v;
+
+Vertex  getY (); Vertex  getZ (); Vertex  getW (); Vertex  getColor (); are also available.
+Vertex  setY ( $v ); Vertex  setZ ( $v ); Vertex  setW ( $v ); Vertex  setColor ( $v ); are also available.
+
+---------------------------------------------------------------------- Vertex ->
